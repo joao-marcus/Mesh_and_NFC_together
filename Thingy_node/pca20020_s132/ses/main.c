@@ -764,32 +764,6 @@ int main(void)
     APP_ERROR_CHECK(err_code);
 
 
-
-       //***************************************************@todo jm
-    uint32_t  len = sizeof(m_ndef_msg_buf);
-
-    //        //    /* Set up NFC */
-    err_code = nfc_t2t_setup(nfc_callback, NULL);
-    APP_ERROR_CHECK(err_code);
-
-    /* Encode welcome message */
-    err_code = welcome_msg_encode(m_ndef_msg_buf, &len);
-    APP_ERROR_CHECK(err_code);
-
-    /* Set created message as the NFC payload */
-    err_code = nfc_t2t_payload_set(m_ndef_msg_buf, len);
-    APP_ERROR_CHECK(err_code);
-
-    /* Start sensing NFC field */
-    err_code = nfc_t2t_emulation_start();
-    APP_ERROR_CHECK(err_code);
-
-    //nrf_drv_clock_lfclk_request(NULL);
-   // nrf_drv_clock_uninit();
-
-
-    //******************************************************************
-
     NRF_LOG_INFO(NRF_LOG_COLOR_CODE_GREEN"===== Thingy mesh demo node started! =====\r\n");
     nrf_gpio_cfg_input(BUTTON, NRF_GPIO_PIN_PULLUP);
 
@@ -834,6 +808,31 @@ int main(void)
     err_code = nrf_drv_gpiote_in_init(11, &gpiote_in_config, gpiote_Button_handler);
 
     nrf_drv_gpiote_in_event_enable(11, true);
+
+
+    //***************************************************@todo jm
+    uint32_t  len = sizeof(m_ndef_msg_buf);
+
+    //        //    /* Set up NFC */
+    err_code = nfc_t2t_setup(nfc_callback, NULL);
+    APP_ERROR_CHECK(err_code);
+
+    /* Encode welcome message */
+    err_code = welcome_msg_encode(m_ndef_msg_buf, &len);
+    APP_ERROR_CHECK(err_code);
+
+    /* Set created message as the NFC payload */
+    err_code = nfc_t2t_payload_set(m_ndef_msg_buf, len);
+    APP_ERROR_CHECK(err_code);
+
+    /* Start sensing NFC field */
+    err_code = nfc_t2t_emulation_start();
+    APP_ERROR_CHECK(err_code);
+
+    //nrf_drv_clock_lfclk_request(NULL);
+   // nrf_drv_clock_uninit();
+
+    //******************************************************************
 
 
 

@@ -1,7 +1,9 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
@@ -21,6 +23,7 @@
  <Project>
   <ProjectSessionItem path="Thingy_node_s132_pca20020"/>
   <ProjectSessionItem path="Thingy_node_s132_pca20020;Thingy_node"/>
+  <ProjectSessionItem path="Thingy_node_s132_pca20020;Thingy_node;Internal Files"/>
   <ProjectSessionItem path="Thingy_node_s132_pca20020;Thingy_node;nRF_Libraries"/>
   <ProjectSessionItem path="Thingy_node_s132_pca20020;Thingy_node;nRF_NFC"/>
   <ProjectSessionItem path="Thingy_node_s132_pca20020;Thingy_node;SDK_mod"/>
@@ -58,19 +61,20 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="639" useTextEdit="1" useBinaryEdit="0" left="0" path="main.c" selected="0" top="620" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="833" useTextEdit="1" useBinaryEdit="0" left="0" path="main.c" selected="1" top="770" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="493" useTextEdit="1" useBinaryEdit="0" left="0" path="drv_gas_sensor.c" selected="0" top="470" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="105" useTextEdit="1" useBinaryEdit="0" left="0" path="drv_humidity.c" selected="0" top="88" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" useBinaryEdit="0" left="0" path="pca20020.h" selected="0" top="327" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="105" useTextEdit="1" useBinaryEdit="0" left="0" path="sdk_mod/nrf_mesh_config_app.h" selected="0" top="93" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="45" useTextEdit="1" useBinaryEdit="0" left="0" path="sdk_mod/nrf_mesh_config_core.h" selected="0" top="33" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6189" useTextEdit="1" useBinaryEdit="0" left="0" path="sdk_config.h" selected="0" top="6186" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1884" useTextEdit="1" useBinaryEdit="0" left="0" path="fds.c" selected="1" top="1859" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1884" useTextEdit="1" useBinaryEdit="0" left="0" path="fds.c" selected="0" top="1865" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="261" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../source/drivers/drv_nfc.c" selected="0" top="239" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/sdk13/components/nfc/t2t_lib/hal_t2t/hal_nfc_t2t.c" selected="0" top="192" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="118" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/sdk13/components/nfc/ndef/uri/nfc_uri_msg.c" selected="0" top="93" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="137" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/sdk13/components/nfc/ndef/launchapp/nfc_launchapp_msg.c" selected="0" top="112" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/sdk13/components/nfc/ndef/generic/message/nfc_ndef_msg.c" selected="0" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="27" useTextEdit="1" useBinaryEdit="0" left="0" path="system_nrf52.c" selected="0" top="0" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="Thingy_node" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="release_v1_0_0" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Acer Nitro 2/Downloads/DeviceDownload (2)/Nordic-Thingy52-FW-master/Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="Thingy_node" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="release_v1_0_0" sessionSettings="" debugSearchFileMap="C:/Users/RAMS.NVLSI/repos/nfcLibNew/private/nfc_t2t_lib/nfc_t2t_lib.c&#xa;" fileDialogInitialDirectory="C:/Users/Acer Nitro 2/Downloads/DeviceDownload (2)/Nordic-Thingy52-FW-master/Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
