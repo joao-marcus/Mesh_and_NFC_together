@@ -1,0 +1,16 @@
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\mpl.c
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\storage_manager.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\driver\include\mltypes.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\driver\include\stdint_invensense.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\driver\include\log.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\_release_v1_0_0\mpl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\mpl.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\start_manager.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\data_builder.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\mllite\results_holder.h
+.\_release_v1_0_0\mpl.o: ..\..\..\libs\eMD6\core\driver\include\mlinclude.h

@@ -1,0 +1,15 @@
+## SEGGER Embedded Studio and JLink ##
+Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132/ses/Output/
+Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132/ses/Thingy_node.emSession
+Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132/ses/Thingy_node_debug_v1_0_0.jlink
+Nordic-Thingy52-FW-master/Thingy_node/pca20020_s132/ses/Thingy_node_release_v1_0_0.jlink
+Nordic-Thingy52-FW-master/Thingy_bridge/pca20020_s132/ses/Thingy_bridge.emSession
+Nordic-Thingy52-FW-master/Thingy_bridge/pca20020_s132/ses/Thingy_bridge_debug_v1_0_0.jlink
+Nordic-Thingy52-FW-master/Thingy_bridge/pca20020_s132/ses/Thingy_bridge_release_v1_0_0.jlink
+
+## KEIL AND JLINK ##
+_build
+RTE
+
+## Symlinks should not be commited ##
+sdk_components
